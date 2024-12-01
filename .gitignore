@@ -1,0 +1,8 @@
+.vscode
+.sonarlint
+run-sonarscanner.sh
+tarefa
+*.exe
+.log
+*.o
+*~
