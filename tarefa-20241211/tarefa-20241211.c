@@ -33,11 +33,11 @@ int main()
         return -1;
     }
 
-    if (numero >= 100 && numero <= 999) {
+    if (numero >= 101 && numero <= 999) {
         numeroInvertido = inverterNumero(numero);
         printf("O numero invertido e: %d\n", numeroInvertido);
     } else {
-        printf("Numero invalido. Digite um numero entre 100 e 999.\n");
+        printf("Numero invalido. Digite um numero entre 101 e 999.\n");
         return -1;
     }
 
